@@ -8,7 +8,6 @@ let score = 0;
 let startInterval;
 
 const spawnBebe = () => {
-    // console.log(score, worm.style.width);
     let birdState = "hungry";
 
     let randomHole = Math.floor(Math.random() * allMoles.length);
