@@ -30,7 +30,7 @@ const spawnBebe = () => {
             birdState = "fed";
             score += 5;
             worm.style.width = score + "%";
-            if (score === 50) {
+            if (score === 70) {
                 console.log(score, worm.style.width);
                 clearInterval(startInterval);
                 alert("Game Over");
